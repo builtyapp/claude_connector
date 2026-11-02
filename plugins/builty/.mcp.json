@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "builty": {
+      "type": "http",
+      "url": "https://api.builty.app/mcp",
+      "headers": {
+        "X-API-Key": "${user_config.api_key}"
+      }
+    }
+  }
+}

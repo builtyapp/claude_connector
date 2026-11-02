@@ -1,0 +1,21 @@
+{
+  "name": "builty",
+  "owner": {
+    "name": "Builty",
+    "url": "https://builtydata.com"
+  },
+  "metadata": {
+    "description": "Claude plugins from Builty: US building permit and property data.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "builty",
+      "source": "./plugins/builty",
+      "description": "US building permit history and permit-derived property characteristics for ~143M buildings, from the Builty API.",
+      "version": "1.0.0",
+      "category": "data",
+      "tags": ["building-permits", "property-data", "real-estate", "insurance"]
+    }
+  ]
+}

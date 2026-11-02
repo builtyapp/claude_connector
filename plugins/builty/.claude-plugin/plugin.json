@@ -1,0 +1,32 @@
+{
+  "name": "builty",
+  "displayName": "Builty",
+  "version": "1.0.0",
+  "description": "US building permit history and permit-derived property characteristics (building, roof, electrical, plumbing, water heater and HVAC ages) for ~143M buildings, from the Builty API.",
+  "author": {
+    "name": "Builty",
+    "url": "https://builtydata.com"
+  },
+  "homepage": "https://builtydata.com",
+  "privacyPolicyUrl": "https://builtydata.com/privacy",
+  "repository": "https://github.com/builtyapp/claude_connector",
+  "license": "MIT",
+  "keywords": [
+    "building permits",
+    "property data",
+    "real estate",
+    "insurance",
+    "underwriting",
+    "roof age",
+    "construction"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Builty API key",
+      "description": "Your Builty API key (sent as the X-API-Key header). Request one at https://builtydata.com.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}
